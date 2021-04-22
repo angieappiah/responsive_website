@@ -12,9 +12,9 @@
     --fw-reg: 300;
     --fw-bold: 900;
 
-    --cl-light: #fff;
-    --cl-dark: #303030;
-    --cl-accent: #16e0bd;
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
@@ -140,5 +140,14 @@ nav {
         width: calc(100% + 1.5em);
     }
     
+}
+
+.my-works {
+    background-color: var(--clr-dark);
+    background-image: url(../img/services-bg.jpeg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    color: var(--clr-light);
+    text-align: center;
 }
 
