@@ -151,3 +151,17 @@ nav {
     text-align: center;
 }
 
+.section__title--works {
+    color: var(--clr-accent);
+    position:relative;
+}
+
+.section__title--works::after {
+    content: '';
+    display: block;
+    width: 25%;
+    height:1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light)
+}
+
