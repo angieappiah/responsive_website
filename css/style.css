@@ -54,7 +54,7 @@ section {
 
 img {
     display: block;
-    max-width: 50%;
+    max-width: 70%;
 }
 
 strong {font-weight: var(--fw-bold);}
@@ -155,6 +155,10 @@ nav {
         z-index: 2;
     }
 
+    /* .section__title--intro {
+        grid-area: title;
+    } */
+
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1/1;
@@ -231,15 +235,27 @@ nav {
         "title img"
         "subtitle img"
         "text img";
-        grid-column-gap: 2em;
+        grid-column-gap: 3em;
     }
 
     .section__title--about {
         grid-area: title;
     }
 
+    .section__subtitle--about {
+        grid-column: 1 / -1;
+        grid-row: 2;
+        position: relative;
+        left: -1em;
+        width: calc (100% + 2em);
+        padding-left: 1em;
+        padding-right: calc (200px + 2em);
+    }
+
     .about-me__img {
      grid-area: img;
+     position: relative;
+     z-index: 2;
 
     }
 
