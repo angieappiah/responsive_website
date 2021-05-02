@@ -130,8 +130,9 @@ margin-bottom: 1em;
 }
 
 nav {
-    display: none;
+    position: relative;
 }
+
 
 .intro {
     position: relative;
