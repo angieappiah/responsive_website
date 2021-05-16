@@ -188,6 +188,10 @@ header {
 
 }
 
+.nav-open .nav {
+  transform: translateX(0);
+}
+
 .hamburger {
     display: block;
     position: relative;
