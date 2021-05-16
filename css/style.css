@@ -39,6 +39,10 @@
 
 /* main */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: var(--clr-light);
     color: var(--clr-dark);
@@ -54,7 +58,7 @@ section {
 
 img {
     display: block;
-    max-width: 70%;
+    max-width: 100%;
 }
 
 strong {font-weight: var(--fw-bold);}
