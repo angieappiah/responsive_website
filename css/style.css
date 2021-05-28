@@ -6,8 +6,8 @@
 }
 
 :root {
-    --ff-primary: 'Source Sans Pro', sans-serif;
-    --ff-secondary: 'Source Code Pro', monospace;
+    --ff-primary: 'Big Shoulders Display', cursive;
+    --ff-secondary: 'Playfair Display', serif;
 
     --fw-reg: 300;
     --fw-bold: 900;
